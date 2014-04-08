@@ -20,6 +20,7 @@ Or install it yourself as:
 
 ```ruby
 MegaLotto::Drawing.new.draw # => [23, 2, 12, 4, 3, 26]
+```
 
 ## Configuration
 
