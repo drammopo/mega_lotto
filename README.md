@@ -20,6 +20,16 @@ Or install it yourself as:
 
 ```ruby
 MegaLotto::Drawing.new.draw # => [23, 2, 12, 4, 3, 26]
+
+## Configuration
+
+By default, 6 integers are returned.
+You can customize the number of integers returned by using a configuration block
+
+```ruby
+MegaLotto.configure do |config|
+  config.drawing_count = 10
+end
 ```
 
 ## Contributing
